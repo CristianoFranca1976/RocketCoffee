@@ -1,0 +1,223 @@
+body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh; 
+      background-color: black;
+}
+
+.container {
+      display: flex;
+      position: relative;
+      width: 1360px;
+      height: 768px; 
+      
+       
+  }
+.img1 {
+  
+      position: absolute;
+      width: 680px;
+      height: 768px;
+
+      background-position: left bottom;
+      background-image: url(assets/blur-1.png) ;
+      background-repeat: no-repeat;
+}
+
+.img2 {
+      position: absolute;
+      width: 680px;
+      height: 768px;
+      left: 680px;
+     
+      background-position: right top;
+      background-image: url(assets/blur-2.png) ;
+      background-repeat: no-repeat;
+}
+
+.menu {
+      display: flex;
+      border: 1px solid black ;
+      position: absolute;
+      width: 100%;
+      max-width: 918px;
+      height: 50px;
+      top: 50px;
+      left: 280px;
+    }
+
+.logo {
+      background-image: url(assets/logo-desktop.svg);
+      position: absolute;
+      width: 43.06px;
+      height: 50px;
+
+    }
+
+ul {
+      display: flex;
+      
+      margin-left: 184px;
+      list-style-type: none;
+      text-decoration: none;
+      padding: 0;
+      
+      
+    }
+    
+li a {
+
+      
+      display: inline-block; 
+      padding: 0;  /* esse aqui deu espaco do primeiro item da esquerda pra direita que e o Home*/
+      color: #FFF;
+      font-size: 14px;
+      font-family: Manrope;
+      font-weight: 500;
+      letter-spacing: 0.28px;
+      text-decoration: none;
+      margin-left: 32.43px; /* emelhor usar a margin cc=quando vc quizer usar :hover*/
+      
+     
+    }
+
+    .left-side a{
+      
+      position: absolute;
+      height: 15px;
+      width: 96px;
+      color: #FFF;
+      font-size: 11px;
+      font-family: Manrope;
+      font-weight: 800;
+      letter-spacing: 0.22px;
+      text-decoration: none;
+      
+    }
+
+   .menu .left-side {
+      
+      position: absolute;
+      width: 96px;
+      height: 15px;
+      right: 38px;
+      left: 746px;
+      top: 6px;
+      display: inline-flex;
+      padding: 11px 38px;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      border-radius: 6px;
+      border: 1px solid #8257E5;
+
+      
+    }
+
+.great { 
+  
+  position: absolute;
+  width: 471px;
+  height: 109px;
+  top: 100px;
+  left: 445px
+}
+   
+ h1 {
+  
+  color: #FFF;
+  text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  font-size: 80px;
+  font-family: Manrope;
+  font-weight: 700;
+  letter-spacing: -2.4px;
+}
+
+.code {
+  
+  position: absolute;
+  width: 548px;
+  height: 109px;
+  left: 406px;
+  top: 180px;
+  
+}
+
+h2 {
+ 
+  text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  color: #8257E5;
+  font-size: 80px;
+  font-family: Manrope;
+  font-weight: 700;
+  letter-spacing: -2.4px;
+}
+
+.img3 {
+  
+  flex-shrink: 0;
+  position: absolute;
+  width: 490px;
+  height: 506px;
+  left: 435px;
+  top: 292px;
+  background-image: url(assets/Group\ 5\ 1.png);
+  background-repeat: no-repeat;
+  padding: 0;
+  background-position: center;
+
+
+}
+
+.img4 {
+  
+  position: absolute;
+  width: 178.301px;
+  height: 147.325px;
+  left: 290px;
+  bottom: 45px;
+  transform: rotate(10.1deg);
+  flex-shrink: 0; 
+  background-image: url(assets/PngItem.png);
+  background-repeat: no-repeat;
+  background-position: top ;
+  background-position: center;
+  
+}
+
+.img5 {
+  
+  position: absolute;
+  width: 62px;
+  height: 147.325px;
+  top: 500px;
+  right: 354px;
+  transform: rotate(5.905deg);
+  flex-shrink: 0;
+  background-image: url(assets/PngItem1.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  
+}
+
+ .left-side:hover{
+  
+  background-color: rgb(0, 0, 0);
+  padding: auto;
+  border: 2px solid white;
+  
+  
+
+}
+
+li a:hover {
+  background-color: rgb(0, 0, 0);
+  padding: auto;
+  border: 2px solid white;
+}
+
+.logo:hover {
+  opacity: 0.8; 
+  transform: scale(5);
+}
